@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A112FC3C-CDA8-48DE-93D6-534017E4CA9B</string>
+	<string>327C5FFA-D188-4A85-B9D0-03F203D229AE</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Bottle Booking</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>A28BECC9-EF40-406C-9643-041337D5E2CE</key>
+		<key>ABEF01BF-D8BA-4E6D-8607-69E5B71559B3</key>
 		<string>https://github.com/BBAA/BB.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Bottle Booking.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>A28BECC9-EF40-406C-9643-041337D5E2CE</key>
+		<key>ABEF01BF-D8BA-4E6D-8607-69E5B71559B3</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,16 +25,16 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>A28BECC9-EF40-406C-9643-041337D5E2CE</string>
+	<string>ABEF01BF-D8BA-4E6D-8607-69E5B71559B3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>A28BECC9-EF40-406C-9643-041337D5E2CE</string>
+			<string>ABEF01BF-D8BA-4E6D-8607-69E5B71559B3</string>
 			<key>IDESourceControlWCCName</key>
-			<string>BottleBookingGit</string>
+			<string>BB</string>
 		</dict>
 	</array>
 </dict>
