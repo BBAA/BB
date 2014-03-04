@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2D2819B4-70C8-4752-9138-83A3B2168143</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Bottle Booking</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6140A4DF-365F-4DF5-B688-95591A1814D6</key>
+		<string>https://github.com/AmbroiseCollon/Bottle-Booking.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Bottle Booking.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6140A4DF-365F-4DF5-B688-95591A1814D6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AmbroiseCollon/Bottle-Booking.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6140A4DF-365F-4DF5-B688-95591A1814D6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6140A4DF-365F-4DF5-B688-95591A1814D6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Bottle Booking</string>
+		</dict>
+	</array>
+</dict>
+</plist>
