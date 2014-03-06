@@ -9,6 +9,7 @@
 #import "BBAppDelegate.h"
 #import "LoginViewController.h"
 #import "BBUser.h"
+#import "PayPalMobile.h"
 
 @implementation BBAppDelegate
 
@@ -21,6 +22,10 @@
         LoginViewController *loginVC = (LoginViewController *)navController.visibleViewController;
         [loginVC performSegueWithIdentifier:@"login" sender:self];
     }
+    
+    //Paypal Keys
+    [PayPalMobile initializeWithClientIdsForEnvironments:@{PayPalEnvironmentProduction : @"YOUR_CLIENT_ID_FOR_PRODUCTION",
+                                                           PayPalEnvironmentSandbox : @"AQTSrBAAIbvcjyrOuZF0pZxyW8D-mvh6dmqgzNB-BoE1WR5fgP47-VXhdNnc"}];
     return YES;
 }
 							

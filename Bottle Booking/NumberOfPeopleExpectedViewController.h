@@ -7,7 +7,10 @@
 //
 
 #import "PopUpViewController.h"
+#import "AreaSelectionViewController.h"
 
 @interface NumberOfPeopleExpectedViewController : PopUpViewController
 @property (nonatomic) int capacity;
+@property (nonatomic) int numberOfPeople;
+@property (nonatomic) AreaSelectionViewController *zoneSelectionVC;
 @end
