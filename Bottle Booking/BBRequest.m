@@ -49,7 +49,21 @@
 }
 
 -(void)sendLocallyWithContent:(NSDictionary *)content andFunctionKeyWord:(NSString *)keyWord inBackgroundWithBlock:(void(^)(NSDictionary *result))handler
- {
+{
+    _completionHandler = [handler copy];
+    NSDictionary *contentDictionary = [[NSDictionary alloc]init];
+    if ([keyWord isEqualToString:@"GET_CLUB_PRODUCTS_AND_AREAS"]) {
+        contentDictionary = @{@"areas" : @[@{@"description": @"VIP (left)",@"minimumSpending":@1500,@"capacity":@12},
+                                           @{@"description": @"VIP (right)",@"minimumSpending":@1500,@"capacity":@12},
+                                           @{@"description": @"Mezzanine",@"minimumSpending":@1200,@"capacity":@22},
+                                           @{@"description": @"Près des DJ",@"minimumSpending":@2500,@"capacity":@4},
+                                           @{@"description": @"Dancefloor",@"minimumSpending":@1000,@"capacity":@9}],
+                              @"products":@{@"drinks":@[],
+                                            @"packages":@[@{@"description":@"Gold", @"price":@2000}],
+                                            @"services":@[@{@"description":@"Candy-Cake", @"price":@200}]},
+                              @"error": @"NO_ERROR"};
+        _completionHandler(contentDictionary);
+    }
 
 }
 /*==========================================================================================================

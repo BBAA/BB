@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C915FEA218C78A900049E65C /* AreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = C915FEA118C78A900049E65C /* AreaView.m */; };
+		C92CA79418C755A0000CDC2B /* AreaScrollingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C92CA79318C755A0000CDC2B /* AreaScrollingView.m */; };
+		C93A0DB418C878E8009905B9 /* BorderedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C93A0DB318C878E8009905B9 /* BorderedButton.m */; };
+		C93A0DBB18C8B4F7009905B9 /* libPayPalMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C93A0DBA18C8B4F7009905B9 /* libPayPalMobile.a */; };
+		C93A0DC318C8B51E009905B9 /* OrderSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93A0DBE18C8B51E009905B9 /* OrderSummaryViewController.m */; };
+		C93A0DC418C8B51E009905B9 /* OrderConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93A0DC018C8B51E009905B9 /* OrderConfirmationViewController.m */; };
+		C93A0DC518C8B51E009905B9 /* BookingPassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93A0DC218C8B51E009905B9 /* BookingPassViewController.m */; };
+		C93A0DCD18C8B8A1009905B9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93A0DCC18C8B8A1009905B9 /* AVFoundation.framework */; };
+		C93A0DCF18C8B8AC009905B9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93A0DCE18C8B8AC009905B9 /* CoreLocation.framework */; };
+		C93A0DD118C8B8BB009905B9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93A0DD018C8B8BB009905B9 /* MessageUI.framework */; };
+		C93A0DD318C8B8C9009905B9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93A0DD218C8B8C9009905B9 /* SystemConfiguration.framework */; };
+		C93A0DD618C8BAE0009905B9 /* GetStartedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93A0DD518C8BAE0009905B9 /* GetStartedViewController.m */; };
+		C942A24C18C72A17003F54BC /* HourOfArrivalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C942A24B18C72A17003F54BC /* HourOfArrivalViewController.m */; };
+		C9451FDB18C7D6B5001E3B3B /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = C9451FDA18C7D6B5001E3B3B /* Event.m */; };
 		C9D5885318C5E2F200AB5DF5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D5885218C5E2F200AB5DF5 /* LoginViewController.m */; };
 		C9D5885618C5E7CC00AB5DF5 /* BBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D5885518C5E7CC00AB5DF5 /* BBRequest.m */; };
 		C9D5887118C5E8B100AB5DF5 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D5886518C5E8B100AB5DF5 /* NSObject+SBJson.m */; };
@@ -25,7 +39,7 @@
 		C9D5888218C5FF8400AB5DF5 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D5888118C5FF8400AB5DF5 /* Login.m */; };
 		C9D5888518C6036000AB5DF5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D5888418C6036000AB5DF5 /* HomeViewController.m */; };
 		C9D5888A18C633A200AB5DF5 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D5888918C633A200AB5DF5 /* EventViewController.m */; };
-		C9D5888D18C6416800AB5DF5 /* ZoneSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D5888C18C6416800AB5DF5 /* ZoneSelectionViewController.m */; };
+		C9D5888D18C6416800AB5DF5 /* AreaSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D5888C18C6416800AB5DF5 /* AreaSelectionViewController.m */; };
 		C9D5889018C6420100AB5DF5 /* DrinkSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D5888F18C6420100AB5DF5 /* DrinkSelectionViewController.m */; };
 		C9D5889318C6421900AB5DF5 /* PopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D5889218C6421900AB5DF5 /* PopUpViewController.m */; };
 		C9D5889618C6424800AB5DF5 /* NumberOfPeopleExpectedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D5889518C6424800AB5DF5 /* NumberOfPeopleExpectedViewController.m */; };
@@ -42,7 +56,6 @@
 		C9D648A218BD4F4D0066A0D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D6488418BD4F4D0066A0D9 /* UIKit.framework */; };
 		C9D648AA18BD4F4D0066A0D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9D648A818BD4F4D0066A0D9 /* InfoPlist.strings */; };
 		C9D648AC18BD4F4D0066A0D9 /* Bottle_BookingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D648AB18BD4F4D0066A0D9 /* Bottle_BookingTests.m */; };
-		C9F6D39B18C6599B0049EC06 /* ZoneSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F6D39A18C6599B0049EC06 /* ZoneSelection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +69,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C915FEA018C78A900049E65C /* AreaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaView.h; sourceTree = "<group>"; };
+		C915FEA118C78A900049E65C /* AreaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaView.m; sourceTree = "<group>"; };
+		C92CA79218C755A0000CDC2B /* AreaScrollingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaScrollingView.h; sourceTree = "<group>"; };
+		C92CA79318C755A0000CDC2B /* AreaScrollingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaScrollingView.m; sourceTree = "<group>"; };
+		C93A0DB218C878E8009905B9 /* BorderedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderedButton.h; sourceTree = "<group>"; };
+		C93A0DB318C878E8009905B9 /* BorderedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderedButton.m; sourceTree = "<group>"; };
+		C93A0DB518C8B4F7009905B9 /* PayPalConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalConfiguration.h; sourceTree = "<group>"; };
+		C93A0DB618C8B4F7009905B9 /* PayPalMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalMobile.h; sourceTree = "<group>"; };
+		C93A0DB718C8B4F7009905B9 /* PayPalPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPayment.h; sourceTree = "<group>"; };
+		C93A0DB818C8B4F7009905B9 /* PayPalPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPaymentViewController.h; sourceTree = "<group>"; };
+		C93A0DB918C8B4F7009905B9 /* PayPalFuturePaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalFuturePaymentViewController.h; sourceTree = "<group>"; };
+		C93A0DBA18C8B4F7009905B9 /* libPayPalMobile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMobile.a; sourceTree = "<group>"; };
+		C93A0DBD18C8B51E009905B9 /* OrderSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderSummaryViewController.h; sourceTree = "<group>"; };
+		C93A0DBE18C8B51E009905B9 /* OrderSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderSummaryViewController.m; sourceTree = "<group>"; };
+		C93A0DBF18C8B51E009905B9 /* OrderConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderConfirmationViewController.h; sourceTree = "<group>"; };
+		C93A0DC018C8B51E009905B9 /* OrderConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderConfirmationViewController.m; sourceTree = "<group>"; };
+		C93A0DC118C8B51E009905B9 /* BookingPassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingPassViewController.h; sourceTree = "<group>"; };
+		C93A0DC218C8B51E009905B9 /* BookingPassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingPassViewController.m; sourceTree = "<group>"; };
+		C93A0DCC18C8B8A1009905B9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C93A0DCE18C8B8AC009905B9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C93A0DD018C8B8BB009905B9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C93A0DD218C8B8C9009905B9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C93A0DD418C8BAE0009905B9 /* GetStartedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetStartedViewController.h; sourceTree = "<group>"; };
+		C93A0DD518C8BAE0009905B9 /* GetStartedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetStartedViewController.m; sourceTree = "<group>"; };
+		C942A24A18C72A17003F54BC /* HourOfArrivalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HourOfArrivalViewController.h; sourceTree = "<group>"; };
+		C942A24B18C72A17003F54BC /* HourOfArrivalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HourOfArrivalViewController.m; sourceTree = "<group>"; };
+		C9451FD918C7D6B5001E3B3B /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		C9451FDA18C7D6B5001E3B3B /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		C9D5885118C5E2F200AB5DF5 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		C9D5885218C5E2F200AB5DF5 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		C9D5885418C5E7CC00AB5DF5 /* BBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBRequest.h; sourceTree = "<group>"; };
@@ -93,8 +134,8 @@
 		C9D5888418C6036000AB5DF5 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		C9D5888818C633A200AB5DF5 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
 		C9D5888918C633A200AB5DF5 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
-		C9D5888B18C6416800AB5DF5 /* ZoneSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoneSelectionViewController.h; sourceTree = "<group>"; };
-		C9D5888C18C6416800AB5DF5 /* ZoneSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoneSelectionViewController.m; sourceTree = "<group>"; };
+		C9D5888B18C6416800AB5DF5 /* AreaSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaSelectionViewController.h; sourceTree = "<group>"; };
+		C9D5888C18C6416800AB5DF5 /* AreaSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaSelectionViewController.m; sourceTree = "<group>"; };
 		C9D5888E18C6420100AB5DF5 /* DrinkSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkSelectionViewController.h; sourceTree = "<group>"; };
 		C9D5888F18C6420100AB5DF5 /* DrinkSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkSelectionViewController.m; sourceTree = "<group>"; };
 		C9D5889118C6421900AB5DF5 /* PopUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpViewController.h; sourceTree = "<group>"; };
@@ -118,8 +159,6 @@
 		C9D648A718BD4F4D0066A0D9 /* Bottle BookingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bottle BookingTests-Info.plist"; sourceTree = "<group>"; };
 		C9D648A918BD4F4D0066A0D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9D648AB18BD4F4D0066A0D9 /* Bottle_BookingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bottle_BookingTests.m; sourceTree = "<group>"; };
-		C9F6D39918C6599B0049EC06 /* ZoneSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoneSelection.h; sourceTree = "<group>"; };
-		C9F6D39A18C6599B0049EC06 /* ZoneSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoneSelection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +166,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C93A0DD318C8B8C9009905B9 /* SystemConfiguration.framework in Frameworks */,
+				C93A0DD118C8B8BB009905B9 /* MessageUI.framework in Frameworks */,
+				C93A0DCF18C8B8AC009905B9 /* CoreLocation.framework in Frameworks */,
+				C93A0DCD18C8B8A1009905B9 /* AVFoundation.framework in Frameworks */,
 				C9D6488318BD4F4D0066A0D9 /* CoreGraphics.framework in Frameworks */,
 				C9D6488518BD4F4D0066A0D9 /* UIKit.framework in Frameworks */,
+				C93A0DBB18C8B4F7009905B9 /* libPayPalMobile.a in Frameworks */,
 				C9D6488118BD4F4D0066A0D9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +190,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C93A0DBC18C8B4FF009905B9 /* Paypal */ = {
+			isa = PBXGroup;
+			children = (
+				C93A0DB518C8B4F7009905B9 /* PayPalConfiguration.h */,
+				C93A0DB618C8B4F7009905B9 /* PayPalMobile.h */,
+				C93A0DB718C8B4F7009905B9 /* PayPalPayment.h */,
+				C93A0DB818C8B4F7009905B9 /* PayPalPaymentViewController.h */,
+				C93A0DB918C8B4F7009905B9 /* PayPalFuturePaymentViewController.h */,
+				C93A0DBA18C8B4F7009905B9 /* libPayPalMobile.a */,
+			);
+			name = Paypal;
+			sourceTree = "<group>";
+		};
+		C93A0DC618C8B5A1009905B9 /* OrderSummary */ = {
+			isa = PBXGroup;
+			children = (
+				C93A0DBD18C8B51E009905B9 /* OrderSummaryViewController.h */,
+				C93A0DBE18C8B51E009905B9 /* OrderSummaryViewController.m */,
+			);
+			name = OrderSummary;
+			path = "Bottle Booking";
+			sourceTree = "<group>";
+		};
+		C93A0DC718C8B5B8009905B9 /* OrderConfirmation */ = {
+			isa = PBXGroup;
+			children = (
+				C93A0DBF18C8B51E009905B9 /* OrderConfirmationViewController.h */,
+				C93A0DC018C8B51E009905B9 /* OrderConfirmationViewController.m */,
+			);
+			name = OrderConfirmation;
+			path = "Bottle Booking";
+			sourceTree = "<group>";
+		};
+		C93A0DC818C8B5C4009905B9 /* BookingPass */ = {
+			isa = PBXGroup;
+			children = (
+				C93A0DC118C8B51E009905B9 /* BookingPassViewController.h */,
+				C93A0DC218C8B51E009905B9 /* BookingPassViewController.m */,
+			);
+			name = BookingPass;
+			path = "Bottle Booking";
+			sourceTree = "<group>";
+		};
+		C93A0DC918C8B611009905B9 /* Customization */ = {
+			isa = PBXGroup;
+			children = (
+				C93A0DB218C878E8009905B9 /* BorderedButton.h */,
+				C93A0DB318C878E8009905B9 /* BorderedButton.m */,
+			);
+			name = Customization;
+			path = "Bottle Booking";
+			sourceTree = "<group>";
+		};
+		C93A0DCA18C8B647009905B9 /* DrinkSelection */ = {
+			isa = PBXGroup;
+			children = (
+				C9D5888E18C6420100AB5DF5 /* DrinkSelectionViewController.h */,
+				C9D5888F18C6420100AB5DF5 /* DrinkSelectionViewController.m */,
+			);
+			name = DrinkSelection;
+			path = "Bottle Booking";
+			sourceTree = "<group>";
+		};
+		C93A0DCB18C8B65D009905B9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C9D5888318C6036000AB5DF5 /* HomeViewController.h */,
+				C9D5888418C6036000AB5DF5 /* HomeViewController.m */,
+			);
+			name = Home;
+			path = "Bottle Booking";
+			sourceTree = "<group>";
+		};
+		C9451FDC18C7D6C1001E3B3B /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				C9451FD918C7D6B5001E3B3B /* Event.h */,
+				C9451FDA18C7D6B5001E3B3B /* Event.m */,
+				C9D5888818C633A200AB5DF5 /* EventViewController.h */,
+				C9D5888918C633A200AB5DF5 /* EventViewController.m */,
+			);
+			name = Event;
+			path = "Bottle Booking";
+			sourceTree = "<group>";
+		};
 		C9D5885718C5E89B00AB5DF5 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +314,8 @@
 				C9D5888118C5FF8400AB5DF5 /* Login.m */,
 				C9D5885118C5E2F200AB5DF5 /* LoginViewController.h */,
 				C9D5885218C5E2F200AB5DF5 /* LoginViewController.m */,
+				C93A0DD418C8BAE0009905B9 /* GetStartedViewController.h */,
+				C93A0DD518C8BAE0009905B9 /* GetStartedViewController.m */,
 			);
 			name = Login;
 			path = "Bottle Booking";
@@ -205,11 +336,19 @@
 		C9D6487418BD4F4D0066A0D9 = {
 			isa = PBXGroup;
 			children = (
+				C93A0DBC18C8B4FF009905B9 /* Paypal */,
 				C9D5885718C5E89B00AB5DF5 /* JSON */,
 				C9D5888718C6037700AB5DF5 /* Request & User */,
-				C9D5888618C6036900AB5DF5 /* Login */,
+				C93A0DC918C8B611009905B9 /* Customization */,
 				C9F6D39818C644AD0049EC06 /* Popup */,
+				C9D5888618C6036900AB5DF5 /* Login */,
+				C93A0DCB18C8B65D009905B9 /* Home */,
+				C9451FDC18C7D6C1001E3B3B /* Event */,
 				C9F6D39C18C659A80049EC06 /* Zone Selection */,
+				C93A0DCA18C8B647009905B9 /* DrinkSelection */,
+				C93A0DC618C8B5A1009905B9 /* OrderSummary */,
+				C93A0DC718C8B5B8009905B9 /* OrderConfirmation */,
+				C93A0DC818C8B5C4009905B9 /* BookingPass */,
 				C9D6488618BD4F4D0066A0D9 /* Bottle Booking */,
 				C9D648A518BD4F4D0066A0D9 /* Bottle BookingTests */,
 				C9D6487F18BD4F4D0066A0D9 /* Frameworks */,
@@ -229,6 +368,10 @@
 		C9D6487F18BD4F4D0066A0D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C93A0DD218C8B8C9009905B9 /* SystemConfiguration.framework */,
+				C93A0DD018C8B8BB009905B9 /* MessageUI.framework */,
+				C93A0DCE18C8B8AC009905B9 /* CoreLocation.framework */,
+				C93A0DCC18C8B8A1009905B9 /* AVFoundation.framework */,
 				C9D6488018BD4F4D0066A0D9 /* Foundation.framework */,
 				C9D6488218BD4F4D0066A0D9 /* CoreGraphics.framework */,
 				C9D6488418BD4F4D0066A0D9 /* UIKit.framework */,
@@ -243,12 +386,6 @@
 				C9D6488F18BD4F4D0066A0D9 /* BBAppDelegate.h */,
 				C9D6489018BD4F4D0066A0D9 /* BBAppDelegate.m */,
 				C9D6489218BD4F4D0066A0D9 /* Main.storyboard */,
-				C9D5888E18C6420100AB5DF5 /* DrinkSelectionViewController.h */,
-				C9D5888F18C6420100AB5DF5 /* DrinkSelectionViewController.m */,
-				C9D5888818C633A200AB5DF5 /* EventViewController.h */,
-				C9D5888918C633A200AB5DF5 /* EventViewController.m */,
-				C9D5888318C6036000AB5DF5 /* HomeViewController.h */,
-				C9D5888418C6036000AB5DF5 /* HomeViewController.m */,
 				C9D6489818BD4F4D0066A0D9 /* Images.xcassets */,
 				C9D6488718BD4F4D0066A0D9 /* Supporting Files */,
 			);
@@ -291,6 +428,8 @@
 				C9D5889218C6421900AB5DF5 /* PopUpViewController.m */,
 				C9D5889418C6424800AB5DF5 /* NumberOfPeopleExpectedViewController.h */,
 				C9D5889518C6424800AB5DF5 /* NumberOfPeopleExpectedViewController.m */,
+				C942A24A18C72A17003F54BC /* HourOfArrivalViewController.h */,
+				C942A24B18C72A17003F54BC /* HourOfArrivalViewController.m */,
 			);
 			name = Popup;
 			path = "Bottle Booking";
@@ -299,10 +438,12 @@
 		C9F6D39C18C659A80049EC06 /* Zone Selection */ = {
 			isa = PBXGroup;
 			children = (
-				C9F6D39918C6599B0049EC06 /* ZoneSelection.h */,
-				C9F6D39A18C6599B0049EC06 /* ZoneSelection.m */,
-				C9D5888B18C6416800AB5DF5 /* ZoneSelectionViewController.h */,
-				C9D5888C18C6416800AB5DF5 /* ZoneSelectionViewController.m */,
+				C915FEA018C78A900049E65C /* AreaView.h */,
+				C915FEA118C78A900049E65C /* AreaView.m */,
+				C92CA79218C755A0000CDC2B /* AreaScrollingView.h */,
+				C92CA79318C755A0000CDC2B /* AreaScrollingView.m */,
+				C9D5888B18C6416800AB5DF5 /* AreaSelectionViewController.h */,
+				C9D5888C18C6416800AB5DF5 /* AreaSelectionViewController.m */,
 			);
 			name = "Zone Selection";
 			path = "Bottle Booking";
@@ -407,13 +548,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9D5887618C5E8B100AB5DF5 /* SBJsonStreamParserState.m in Sources */,
-				C9D5888D18C6416800AB5DF5 /* ZoneSelectionViewController.m in Sources */,
-				C9F6D39B18C6599B0049EC06 /* ZoneSelection.m in Sources */,
+				C9D5888D18C6416800AB5DF5 /* AreaSelectionViewController.m in Sources */,
 				C9D5887218C5E8B100AB5DF5 /* SBJsonParser.m in Sources */,
 				C9D5887518C5E8B100AB5DF5 /* SBJsonStreamParserAdapter.m in Sources */,
+				C915FEA218C78A900049E65C /* AreaView.m in Sources */,
 				C9D5888A18C633A200AB5DF5 /* EventViewController.m in Sources */,
 				C9D5888518C6036000AB5DF5 /* HomeViewController.m in Sources */,
 				C9D5885618C5E7CC00AB5DF5 /* BBRequest.m in Sources */,
+				C92CA79418C755A0000CDC2B /* AreaScrollingView.m in Sources */,
+				C93A0DC418C8B51E009905B9 /* OrderConfirmationViewController.m in Sources */,
 				C9D5887418C5E8B100AB5DF5 /* SBJsonStreamParserAccumulator.m in Sources */,
 				C9D5885318C5E2F200AB5DF5 /* LoginViewController.m in Sources */,
 				C9D5887918C5E8B100AB5DF5 /* SBJsonStreamWriterState.m in Sources */,
@@ -425,12 +568,18 @@
 				C9D5887A18C5E8B100AB5DF5 /* SBJsonTokeniser.m in Sources */,
 				C9D5887118C5E8B100AB5DF5 /* NSObject+SBJson.m in Sources */,
 				C9D6488D18BD4F4D0066A0D9 /* main.m in Sources */,
+				C93A0DC518C8B51E009905B9 /* BookingPassViewController.m in Sources */,
 				C9D5887318C5E8B100AB5DF5 /* SBJsonStreamParser.m in Sources */,
 				C9D5887B18C5E8B100AB5DF5 /* SBJsonUTF8Stream.m in Sources */,
+				C93A0DC318C8B51E009905B9 /* OrderSummaryViewController.m in Sources */,
+				C93A0DB418C878E8009905B9 /* BorderedButton.m in Sources */,
+				C942A24C18C72A17003F54BC /* HourOfArrivalViewController.m in Sources */,
 				C9D5887F18C5E95500AB5DF5 /* BBUser.m in Sources */,
+				C93A0DD618C8BAE0009905B9 /* GetStartedViewController.m in Sources */,
 				C9D5887C18C5E8B100AB5DF5 /* SBJsonWriter.m in Sources */,
 				C9D5888218C5FF8400AB5DF5 /* Login.m in Sources */,
 				C9D5889618C6424800AB5DF5 /* NumberOfPeopleExpectedViewController.m in Sources */,
+				C9451FDB18C7D6B5001E3B3B /* Event.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,6 +709,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bottle Booking/Bottle Booking-Prefix.pch";
 				INFOPLIST_FILE = "Bottle Booking/Bottle Booking-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ambroisecollon/Documents/Programmation/Applis/BB,
+				);
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -573,6 +730,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bottle Booking/Bottle Booking-Prefix.pch";
 				INFOPLIST_FILE = "Bottle Booking/Bottle Booking-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ambroisecollon/Documents/Programmation/Applis/BB,
+				);
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
